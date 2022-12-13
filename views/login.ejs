@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Man's Best Friend</title>
+    <link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1XO4gDmbYj4rXodRn7dY2CEl5Yr2tYybr"
+        type="image/x-icon">
+    <link rel="stylesheet" href="/public/css/login.css">
+</head>
+
+<body>
+
+    <div class="left">
+        <img src="https://drive.google.com/uc?export=view&id=1XO4gDmbYj4rXodRn7dY2CEl5Yr2tYybr" alt="" class="bg_logo">
+        <h1 class="main-header__title">Man's Best Friend</h1>
+        <img src="https://drive.google.com/uc?export=view&id=17pbwUwNZhiQBP8P7WkEjiFxgqPJ98TKZ" alt="" class="bg_left">
+    </div>
+
+    <div class="login_box_container">
+        <div class="Login-box">
+            <h1 class="login_title">Inicia Sesion</h1>
+            <form action="/login" method="post">
+
+                <label for="username">Usuario</label>
+                <input name="email" type="text" placeholder="Ingrese correo electronico">
+
+                <label for="password">Contraseña</label>
+                <input name="password" type="password" placeholder="Ingrese contraseña">
+
+                <ul class="list_elements">
+                    <a href="" class="lost_pass">¿Olvidó su Contraseña?</a>
+                    <a href="" class="">¿Eres nuevo? Registrate</a>
+                </ul>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cleint1" id="cleint1" value="cliente">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     Cliente
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="cleint1" id="cleint1" value="empleado" checked>
+                    <label class="form-check-label" for="flexRadioDefault2" >
+                      Empleados
+                    </label>
+                  </div>    
+                <button type="submit">Inicia Sesion</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

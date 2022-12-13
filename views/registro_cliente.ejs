@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/clientes.css">
+    <title> RegistrMan's Best Friend</title>
+    <link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1XO4gDmbYj4rXodRn7dY2CEl5Yr2tYybr"
+        type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="left">
+        <img src="https://drive.google.com/uc?export=view&id=1XO4gDmbYj4rXodRn7dY2CEl5Yr2tYybr" alt="" class="bg_logo">
+        <h1 class="main-header__title">Man's Best Friend</h1>
+        <img src="https://drive.google.com/uc?export=view&id=17pbwUwNZhiQBP8P7WkEjiFxgqPJ98TKZ" alt="" class="bg_left">
+    </div>
+
+    <div class="contendor_grande">
+        <div class="contenedor_box">
+            <form action="/cliente" method="post">
+                <h4>Registro</h4>
+                <div class="nombre1">
+                    <label for="">Nombre completo</label>
+                    <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese nombre">
+                    <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese apellido">
+                </div>
+                <label for="">Celular</label>
+                <input class="controls" type="number" name="telefono" id="telefono" placeholder="Ingrese Celular">
+                <label for="">Correo electronico</label>
+                <input class="controls" type="email" name="email" id="email" placeholder="Ingrese email">
+                <label for="">Direccion</label>
+                <input class="controls" type="Direccion" name="direccion" id="direccion"
+                    placeholder="Ingrese direccion">
+                <h4>Contacto emergencia</h4>
+                <label for="">Nombre completo </label>
+                <input class="controls" type="text" name="Cnombre" id="nombres" placeholder="Ingrese nombre">
+                <input class="controls" type="text" name="Capellido" id="apellido" placeholder="Ingrese apellido">
+                <input class="controls" type="text" name="cedula" id="cedula" placeholder="Ingrese cedula">
+                <h4>Datos de mascota 1</h4>
+                <label for="">Nombre</label>
+                <input class="controls" type="text" name="Pnombre" id="nombres" placeholder="Ingrese nombre">
+                <label for="">Raza</label>
+                <input class="controls" type="text" name="Praza" id="raza" placeholder="Ingrese raza">
+                <label for="">Ingrese contraseña</label>
+                <input class="controls" type="password" name="contrasenia" id="contrasenia" placeholder="Ingrese raza">
+
+
+                <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+                <div class="boton">
+
+
+                    <input class="botons" type="submit" value="registrar">
+                </div>
+            </form>
+            <p><a href="#">¿Ya tienes cuenta?</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
